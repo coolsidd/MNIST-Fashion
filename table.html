@@ -1,0 +1,918 @@
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></th>
+<th scope="col" class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></th>
+<th scope="col" class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></th>
+<th scope="col" class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Layer (type)</th>
+<th scope="col" class="org-left">Output Shape</th>
+<th scope="col" class="org-right">Param #</th>
+<th scope="col" class="org-left">Connected to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">input<sub>4</sub> (InputLayer)</td>
+<td class="org-left">(None, 28, 28, 1)</td>
+<td class="org-right">0</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">conv0 (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 256)</td>
+<td class="org-right">2560</td>
+<td class="org-left">input<sub>4</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">activation<sub>22</sub> (Activation)</td>
+<td class="org-left">(None, 28, 28, 256)</td>
+<td class="org-right">0</td>
+<td class="org-left">conv0[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAa1x1</sub>-3 (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 64)</td>
+<td class="org-right">16448</td>
+<td class="org-left">activation<sub>22</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAa1x1</sub>-5 (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 64)</td>
+<td class="org-right">16448</td>
+<td class="org-left">activation<sub>22</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAa1x1</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 128)</td>
+<td class="org-right">32896</td>
+<td class="org-left">activation<sub>22</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAa3x3</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 128)</td>
+<td class="org-right">73856</td>
+<td class="org-left">stk<sub>blkAa1x1</sub>-3[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAa5x5</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 32)</td>
+<td class="org-right">51232</td>
+<td class="org-left">stk<sub>blkAa1x1</sub>-5[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">concatenate<sub>19</sub> (Concatenate)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">stk<sub>blkAa1x1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkAa3x3</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkAa5x5</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">activation<sub>23</sub> (Activation)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">concatenate<sub>19</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAb1x1</sub>-3 (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>23</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAb1x1</sub>-5 (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>23</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAb1x1</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 128)</td>
+<td class="org-right">36992</td>
+<td class="org-left">activation<sub>23</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAb3x3</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 128)</td>
+<td class="org-right">73856</td>
+<td class="org-left">stk<sub>blkAb1x1</sub>-3[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAb5x5</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 32)</td>
+<td class="org-right">51232</td>
+<td class="org-left">stk<sub>blkAb1x1</sub>-5[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">concatenate<sub>20</sub> (Concatenate)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">stk<sub>blkAb1x1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkAb3x3</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkAb5x5</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">activation<sub>24</sub> (Activation)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">concatenate<sub>20</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAc1x1</sub>-3 (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>24</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAc1x1</sub>-5 (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>24</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAc1x1</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 128)</td>
+<td class="org-right">36992</td>
+<td class="org-left">activation<sub>24</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAc3x3</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 128)</td>
+<td class="org-right">73856</td>
+<td class="org-left">stk<sub>blkAc1x1</sub>-3[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkAc5x5</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 32)</td>
+<td class="org-right">51232</td>
+<td class="org-left">stk<sub>blkAc1x1</sub>-5[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">aux<sub>convA</sub> (Conv2D)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">74016</td>
+<td class="org-left">activation<sub>22</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">concatenate<sub>21</sub> (Concatenate)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">stk<sub>blkAc1x1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkAc3x3</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkAc5x5</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">add<sub>7</sub> (Add)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">aux<sub>convA</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">concatenate<sub>21</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">Abnorm (BatchNormalization)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">1152</td>
+<td class="org-left">add<sub>7</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">activation<sub>25</sub> (Activation)</td>
+<td class="org-left">(None, 28, 28, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">Abnorm[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">max<sub>pool1</sub> (MaxPooling2D)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">activation<sub>25</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBa1x1</sub>-3 (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">max<sub>pool1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBa1x1</sub>-5 (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">max<sub>pool1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBa1x1</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 128)</td>
+<td class="org-right">36992</td>
+<td class="org-left">max<sub>pool1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBa3x3</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 128)</td>
+<td class="org-right">73856</td>
+<td class="org-left">stk<sub>blkBa1x1</sub>-3[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBa5x5</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 32)</td>
+<td class="org-right">51232</td>
+<td class="org-left">stk<sub>blkBa1x1</sub>-5[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">concatenate<sub>22</sub> (Concatenate)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">stk<sub>blkBa1x1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkBa3x3</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkBa5x5</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">activation<sub>26</sub> (Activation)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">concatenate<sub>22</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBb1x1</sub>-3 (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>26</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBb1x1</sub>-5 (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>26</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBb1x1</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 128)</td>
+<td class="org-right">36992</td>
+<td class="org-left">activation<sub>26</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBb3x3</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 128)</td>
+<td class="org-right">73856</td>
+<td class="org-left">stk<sub>blkBb1x1</sub>-3[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBb5x5</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 32)</td>
+<td class="org-right">51232</td>
+<td class="org-left">stk<sub>blkBb1x1</sub>-5[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">concatenate<sub>23</sub> (Concatenate)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">stk<sub>blkBb1x1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkBb3x3</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkBb5x5</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">activation<sub>27</sub> (Activation)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">concatenate<sub>23</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBc1x1</sub>-3 (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>27</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBc1x1</sub>-5 (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 64)</td>
+<td class="org-right">18496</td>
+<td class="org-left">activation<sub>27</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBc1x1</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 128)</td>
+<td class="org-right">36992</td>
+<td class="org-left">activation<sub>27</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBc3x3</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 128)</td>
+<td class="org-right">73856</td>
+<td class="org-left">stk<sub>blkBc1x1</sub>-3[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">stk<sub>blkBc5x5</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 32)</td>
+<td class="org-right">51232</td>
+<td class="org-left">stk<sub>blkBc1x1</sub>-5[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">aux<sub>convB</sub> (Conv2D)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">83232</td>
+<td class="org-left">max<sub>pool1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">concatenate<sub>24</sub> (Concatenate)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">stk<sub>blkBc1x1</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkBc3x3</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">stk<sub>blkBc5x5</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">add<sub>8</sub> (Add)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">aux<sub>convB</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">concatenate<sub>24</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">Bbnorm (BatchNormalization)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">1152</td>
+<td class="org-left">add<sub>8</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">activation<sub>28</sub> (Activation)</td>
+<td class="org-left">(None, 14, 14, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">Bbnorm[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">max<sub>pool2</sub> (MaxPooling2D)</td>
+<td class="org-left">(None, 6, 6, 288)</td>
+<td class="org-right">0</td>
+<td class="org-left">activation<sub>28</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">flatten<sub>4</sub> (Flatten)</td>
+<td class="org-left">(None, 10368)</td>
+<td class="org-right">0</td>
+<td class="org-left">max<sub>pool2</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">fc1 (Dense)</td>
+<td class="org-left">(None, 256)</td>
+<td class="org-right">2654464</td>
+<td class="org-left">flatten<sub>4</sub>[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">fc2 (Dense)</td>
+<td class="org-left">(None, 128)</td>
+<td class="org-right">32896</td>
+<td class="org-left">fc1[0][0]</td>
+</tr>
+
+<tr>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></td>
+<td class="org-right"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">__</span></span></span></span></span></td>
+<td class="org-left"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline"><span class="underline">_</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></td>
+</tr>
+
+<tr>
+<td class="org-left">output (Dense)</td>
+<td class="org-left">(None, 10)</td>
+<td class="org-right">1290</td>
+<td class="org-left">fc2[0][0]</td>
+</tr>
+</tbody>
+</table>
